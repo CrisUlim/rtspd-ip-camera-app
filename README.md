@@ -40,3 +40,6 @@ To change camera you must change channel=1, channel=2, channel=3, etc.
 ![Image](https://github.com/CrisUlim/rtspd-ip-camera-app/blob/main/Screenshot%20from%202022-08-08%2001-57-58.jpg)
 
 You can add more camera changing the code.
+
+
+# To exit windows push ESC key
