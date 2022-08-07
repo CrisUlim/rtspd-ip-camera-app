@@ -32,6 +32,8 @@ rtsp://ip_address:port/live
 /cam/realmonitor?channel=1&subtype=0
 /cam/realmonitor?channel=1&subtype=1
 /cam/realmonitor?channel=1&subtype=1&unicast=true&proto=Onvif
+
+To change camera you must change channel=1, channel=2, channel=3, etc.
 ```
 # Image
 
