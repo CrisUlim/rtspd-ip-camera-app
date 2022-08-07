@@ -19,3 +19,22 @@ sudo apt install python3
 pip3 install cv
 pip3 install customtkinter
 ```
+# RTSP and RTSPD format:
+```
+rtsp://admin:password@ip_address:port/cam/realmonitor?channel=1&subtype=1
+rtsp://ip_address:port/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif
+rtsp://ip_address:port/live
+```
+
+# RTSP routes:
+```
+/cam/realmonitor
+/cam/realmonitor?channel=1&subtype=0
+/cam/realmonitor?channel=1&subtype=1
+/cam/realmonitor?channel=1&subtype=1&unicast=true&proto=Onvif
+```
+# Image
+
+![Image](https://github.com/CrisUlim/rtspd-ip-camera-app/blob/main/Screenshot%20from%202022-08-08%2001-57-58.jpg)
+
+You can add more camera changing the code.
